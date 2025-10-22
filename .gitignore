@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+.venv/
+.env
+.vscode/
+artifacts/*.joblib
+artifacts/*.pkl
+artifacts/*.json
+artifacts/*.npy
+artifacts/*.npz
+artifacts/*.csv
+data/train/*
+!data/train/.gitkeep
+data/val/*
+!data/val/.gitkeep
